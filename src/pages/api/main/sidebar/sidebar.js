@@ -3,7 +3,7 @@ import Sugestoes from "./sugestoes";
 
 export default function Sidebar(){
     return (
-        <div class="sidebar">
+        <div className="sidebar">
             <Usuario src="assets/img/catanacomics.svg" text="catanacomics" name="Catana" razao=""/>
             <Sugestoes />
         </div>

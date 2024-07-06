@@ -1,17 +1,15 @@
-
-
 export default function Story(props){
     return (
-        <div class="story">
+        <div className="story">
             <Imagem src={props.src}/>
-            <Text text={props.name}/>
+            <Usuario text={props.name}/>
         </div>
     );
 }
 
 function Imagem(props){
     return (
-        <div class="imagem">
+        <div className="imagem">
             <img src={props.src} />
         </div>
     );
@@ -19,7 +17,7 @@ function Imagem(props){
 
 function Usuario(props){
     return (
-        <div class="usuario">
+        <div className="usuario">
             {props.text}
         </div>
     );

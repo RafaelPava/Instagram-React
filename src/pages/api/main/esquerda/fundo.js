@@ -3,7 +3,7 @@ import Curtidas from "./curtidas";
 
 export default function Fundo(props){
     return (
-        <div class="fundo">
+        <div className="fundo">
             <Acoes />
             <Curtidas anotherUserImage={props.anotherUserImage} anotherUser={props.anotherUser} likes={props.likes}/>
         </div>

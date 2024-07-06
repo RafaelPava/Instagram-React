@@ -1,6 +1,6 @@
 export default function Usuario(props){ 
     return (
-        <div class="usuario">
+        <div className="usuario">
             <Imagem src={props.src} />
             <Texto text={props.text} name={props.name} razao={props.razao}/>
           </div>
@@ -16,17 +16,17 @@ function Imagem(props){
 function Texto(props){
     if(props.razao === ""){
         return (
-            <div class="texto">
+            <div className="texto">
             <strong>{props.text}</strong>
             {props.name}
             </div>
         );
     }else{
         return (
-            <div class="texto">
+            <div className="texto">
             <strong>{props.text}</strong>
             {props.name}
-            <div class="razao">{props.razao}</div>
+            <div className="razao">{props.razao}</div>
             </div>
         );
     }

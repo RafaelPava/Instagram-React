@@ -1,6 +1,6 @@
 export default function Titulo(){
     return (
-        <div class="titulo">
+        <div className="titulo">
           Sugestões para você
           <div>Ver tudo</div>
         </div>

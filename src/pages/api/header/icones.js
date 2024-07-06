@@ -1,7 +1,7 @@
 export default function Icones(){
     return (
         <div>
-            <div class="icones">
+            <div className="icones">
                 <IonIcon name="paper-plane-outline" />
                 <IonIcon name="compass-outline" />
                 <IonIcon name="heart-outline" />

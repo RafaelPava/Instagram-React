@@ -1,6 +1,6 @@
 export default function FundoMobile(){
     return (
-        <div class="fundo-mobile">
+        <div className="fundo-mobile">
             <IonIcon name = "home"/>
             <IonIcon name = "search-outline"/>
             <IonIcon name = "add-circle-outline"/>

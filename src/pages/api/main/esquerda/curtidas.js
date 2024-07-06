@@ -1,6 +1,6 @@
 export default function Curtidas(props){
     return (
-        <div class="curtidas">
+        <div className="curtidas">
             <Imagem src={props.anotherUserImage}/>
             <Texto name={props.anotherUser} number={props.likes}/>
         </div>
@@ -15,7 +15,7 @@ function Imagem(props){
 
 function Texto(props){
     return (
-        <div class="texto">
+        <div className="texto">
             Curtido por <strong>{props.name}</strong> e <strong>outras {props.number} pessoas</strong>
         </div>
     );

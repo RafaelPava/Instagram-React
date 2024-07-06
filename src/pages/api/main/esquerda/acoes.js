@@ -1,6 +1,6 @@
 export default function Acoes(){
     return (
-        <div class="acoes">
+        <div className="acoes">
             <div>
                 <IonIcon name="heart-outline"/>
                 <IonIcon name="chatbubble-outline"/>

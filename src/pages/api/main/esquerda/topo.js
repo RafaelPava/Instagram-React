@@ -1,6 +1,6 @@
 export default function Topo(props){
     return (
-        <div class="topo">
+        <div className="topo">
             <Usuario src={props.image} text={props.user} />
             <div class="acoes">
                 <ion-icon name="ellipsis-horizontal"></ion-icon>
@@ -11,7 +11,7 @@ export default function Topo(props){
 
 function Usuario(props){
     return (
-        <div class="usuario">
+        <div className="usuario">
             <img src={props.src} />
             {props.text}
         </div>

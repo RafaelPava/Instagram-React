@@ -8,7 +8,7 @@ import Corpo from './api/main/corpo';
 
 const inter = Inter({ subsets: ["latin"] });
 
-function Pagina(){
+export default function Home(){
   return (
     <>
       <Container />
@@ -16,5 +16,3 @@ function Pagina(){
     </>
   );
 }
-
-ReactDOM.render(<Pagina />, document.querySelector('.root'));
