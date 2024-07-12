@@ -1,0 +1,11 @@
+ .logo img {
+    position: relative;
+    top: 3px;
+  }
+  
+ .separador {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin: 0 10px;
+  }

@@ -1,0 +1,15 @@
+.usuario {
+    display: flex;
+  }
+
+  .texto {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .texto :last-child {
+    color: #8E8E8E;
+    font-weight: 400;
+  }

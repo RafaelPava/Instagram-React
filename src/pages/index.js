@@ -3,8 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Container from './api/header/container';
-import Corpo from './api/main/corpo';
+import Container from '../components/header/container';
+import Corpo from '../components/main/corpo';
 
 const inter = Inter({ subsets: ["latin"] });
 

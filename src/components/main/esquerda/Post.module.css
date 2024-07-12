@@ -1,0 +1,7 @@
+.post {
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+  }

@@ -1,0 +1,10 @@
+.setinha {
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    height: 32px;
+    width: 32px;
+    color: #FFF;
+    font-size: 28px;
+    cursor: pointer;
+  }

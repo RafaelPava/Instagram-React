@@ -1,0 +1,10 @@
+.stories {
+    display: flex;
+    align-items: center;
+    height: 118px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    padding: 0 18px;
+    overflow: hidden;
+    position: relative;
+  }

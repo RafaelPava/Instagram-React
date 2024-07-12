@@ -1,0 +1,10 @@
+  .acoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 16px;
+    font-size: 24px;
+  }
+
+  .acoes div:first-child ion-icon {
+    margin-right: 6px;
+  }

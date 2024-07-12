@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    max-width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+.container > * {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }

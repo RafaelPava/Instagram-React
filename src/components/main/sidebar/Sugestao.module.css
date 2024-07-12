@@ -1,0 +1,13 @@
+.sugestao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    height: 31px;
+    margin-bottom: 16px;
+  }
+
+  .seguir {
+    color: #139EF2;
+    font-weight: 600;
+  }
