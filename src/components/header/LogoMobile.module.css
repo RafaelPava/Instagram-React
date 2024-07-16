@@ -1,3 +1,9 @@
 .logoMobile {
     display: none !important;
   }
+
+  @media (max-width: 614px) {
+    .logo-mobile {
+      display: flex !important;
+    }
+  }

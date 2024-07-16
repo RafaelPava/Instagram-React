@@ -1,3 +1,14 @@
 .instagram-mobile {
     display: none !important;
   }
+
+  @media (max-width: 614px) {
+    .instagram-mobile {
+      display: flex !important;
+    }
+  
+    .instagram-mobile {
+      position: relative;
+      top: 4px;
+    }
+  }

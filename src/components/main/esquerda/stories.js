@@ -10,7 +10,7 @@ export default function Stories(){
             {stories.map((story) => {
                 return (
                     <>
-                        <Story src={story.src} text={story.name}/>
+                        <Story src={story.image} text={story.name}/>
                     </>
                 )
             })}

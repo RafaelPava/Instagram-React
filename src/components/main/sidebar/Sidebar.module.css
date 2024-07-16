@@ -3,3 +3,9 @@
     position: sticky;
     top: 88px;
   }
+
+  @media (max-width: 935px) {
+    .sidebar {
+      display: none;
+    }
+  }

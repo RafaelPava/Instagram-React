@@ -7,3 +7,9 @@
     color: #979797;
     text-align: center;
   }
+
+  @media (max-width: 614px) {
+    .navbar .pesquisa {
+      display: none;
+    }
+  }

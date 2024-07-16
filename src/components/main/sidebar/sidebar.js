@@ -5,7 +5,7 @@ import styles from './Sidebar.module.css'
 export default function Sidebar(){
     return (
         <div className={styles.sidebar}>
-            <Usuario src="assets/img/catanacomics.svg" text="catanacomics" name="Catana" razao=""/>
+            <Usuario src="./img/catanacomics.svg" text="catanacomics" name="Catana" razao=""/>
             <Sugestoes />
         </div>
     )

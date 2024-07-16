@@ -8,3 +8,11 @@
     overflow: hidden;
     position: relative;
   }
+
+  @media (max-width: 614px) {
+    .stories {
+      background-color: transparent;
+      border: none;
+      width: 100%;
+    }
+  }

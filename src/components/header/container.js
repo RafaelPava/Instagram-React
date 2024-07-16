@@ -8,6 +8,7 @@ import styles from './Container.module.css'
 
 export default function Container(){
     return (
+        <>
         <div className={styles.container}>
             <Logo />
             <LogoMobile />
@@ -16,5 +17,6 @@ export default function Container(){
             <Icones />
             <IconesMobile />
         </div>
+        </>
     );
 }

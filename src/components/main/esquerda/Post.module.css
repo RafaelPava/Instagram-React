@@ -5,3 +5,20 @@
     flex-direction: column;
     margin-top: 18px;
   }
+
+  @media (max-width: 614px) {
+    .post {
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+      width: 100%;
+    }
+  
+    .post:last-child {
+      margin-bottom: 72px;
+    }
+
+    .post:first-child {
+      margin-top: 0;
+    }
+  }
